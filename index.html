@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFH Real Estate - Building the Future of Urban Bangladesh</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-section {
+            background-image: linear-gradient(rgba(0, 20, 40, 0.7), rgba(10, 25, 41, 0.8)), url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=2670&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        /* Adding a subtle text shadow for better readability */
+        .text-shadow {
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <!-- Header & Navigation -->
+    <header class="bg-gray-800/70 backdrop-blur-md shadow-lg sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">FFH<span class="text-teal-400">.</span></a>
+            <div class="hidden md:flex space-x-4 lg:space-x-6">
+                <a href="#home" class="text-gray-300 hover:text-teal-400 transition duration-300">Home</a>
+                <a href="#about" class="text-gray-300 hover:text-teal-400 transition duration-300">About Us</a>
+                <a href="#project" class="text-gray-300 hover:text-teal-400 transition duration-300">The Project</a>
+                <a href="#ownership" class="text-gray-300 hover:text-teal-400 transition duration-300">Ownership</a>
+                <a href="#smart-space" class="text-gray-300 hover:text-teal-400 transition duration-300">Space Strategy</a>
+                <a href="#invest" class="text-gray-300 hover:text-teal-400 transition duration-300">Why Invest</a>
+                <a href="#partners" class="text-gray-300 hover:text-teal-400 transition duration-300">Partners</a>
+            </div>
+            <a href="#contact" class="hidden md:inline-block bg-teal-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-teal-600 transition duration-300">Contact Us</a>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+            <a href="#home" class="block py-2 text-gray-300 hover:text-teal-400">Home</a>
+            <a href="#about" class="block py-2 text-gray-300 hover:text-teal-400">About Us</a>
+            <a href="#project" class="block py-2 text-gray-300 hover:text-teal-400">The Project</a>
+            <a href="#ownership" class="block py-2 text-gray-300 hover:text-teal-400">Ownership Model</a>
+            <a href="#smart-space" class="block py-2 text-gray-300 hover:text-teal-400">Space Strategy</a>
+            <a href="#invest" class="block py-2 text-gray-300 hover:text-teal-400">Why Invest</a>
+            <a href="#partners" class="block py-2 text-gray-300 hover:text-teal-400">Partners</a>
+            <a href="#contact" class="block mt-2 w-full text-center bg-teal-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-teal-600">Contact Us</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero-section text-white min-h-[80vh] flex items-center">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-shadow">Building the Future of Urban Bangladesh. <span class="text-teal-400">Sustainably.</span></h1>
+                <p class="text-lg md:text-xl max-w-4xl mx-auto mb-8 text-gray-200 text-shadow">FFH Real Estate presents a landmark project offering 30,000 eco-friendly homes and 2.9 million sq ft of commercial space, designed for inclusive growth and long-term value.</p>
+                <a href="#features" class="bg-teal-500 text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-teal-600 transition duration-300 transform hover:scale-105 shadow-lg">Discover Your Future Home</a>
+            </div>
+        </section>
+
+        <!-- Key Features Section -->
+        <section id="features" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                    <!-- Feature 1: Lease-to-Own -->
+                    <div class="text-center p-6 bg-gray-800 rounded-xl shadow-lg hover:shadow-teal-500/20 hover:-translate-y-2 transition-all duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 mx-auto mb-4 bg-teal-500/10 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-white">A New Way to Own</h3>
+                        <p class="text-gray-400">A revolutionary lease-to-own model with zero down payment and affordable monthly installments.</p>
+                    </div>
+                    <!-- Feature 2: Green Living -->
+                    <div class="text-center p-6 bg-gray-800 rounded-xl shadow-lg hover:shadow-teal-500/20 hover:-translate-y-2 transition-all duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 mx-auto mb-4 bg-teal-500/10 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7.014A8.003 8.003 0 0117.657 18.657z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1014.12 11.88l-4.242 4.242z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-white">Green Living, Certified</h3>
+                        <p class="text-gray-400">EDGE-certified units ensure lower energy and water consumption for a sustainable lifestyle.</p>
+                    </div>
+                    <!-- Feature 3: Thriving Community -->
+                    <div class="text-center p-6 bg-gray-800 rounded-xl shadow-lg hover:shadow-teal-500/20 hover:-translate-y-2 transition-all duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 mx-auto mb-4 bg-teal-500/10 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-white">A Thriving Community</h3>
+                        <p class="text-gray-400">Building a vibrant ecosystem for 150,000+ residents and creating 25,000+ new jobs.</p>
+                    </div>
+                    <!-- Feature 4: Strategic Location -->
+                    <div class="text-center p-6 bg-gray-800 rounded-xl shadow-lg hover:shadow-teal-500/20 hover:-translate-y-2 transition-all duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 mx-auto mb-4 bg-teal-500/10 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2 text-white">Strategic Location</h3>
+                        <p class="text-gray-400">Prime access to Gulshan 2, HSIA, and the Purbachal Expressway.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-white">The FFH Vision</h2>
+                    <p class="text-teal-400 font-semibold mt-2">Addressing Today's Urban Challenges for a Better Tomorrow.</p>
+                </div>
+                <div class="max-w-4xl mx-auto text-lg text-gray-300 leading-relaxed">
+                    <p>Dhaka's rapid growth has outpaced traditional housing solutions, leaving a significant gap in the market. FFH Real Estate was founded to address this challenge head-on. Our vision is to deliver large-scale, sustainable, and affordable urban ecosystems that are not only profitable but also socially and environmentally responsible. We are committed to aligning with Bangladesh's national goals for low-cost housing and green development, creating a replicable model for other cities to follow.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- The Project Section -->
+        <section id="project" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-white">The Project</h2>
+                    <p class="text-teal-400 font-semibold mt-2">A Comprehensive Urban Ecosystem.</p>
+                </div>
+
+                <!-- Project Overview -->
+                <div class="mb-20">
+                    <h3 class="text-3xl font-bold text-white mb-8 text-center">Project Overview</h3>
+                    <div class="max-w-4xl mx-auto bg-gray-800 p-8 rounded-xl shadow-lg">
+                        <p class="text-lg text-gray-300 mb-6">This project is a meticulously planned development designed to be a self-sustaining community.</p>
+                        <ul class="space-y-4 text-gray-400">
+                            <li class="flex items-start"><span class="text-teal-400 font-bold mr-3">✔</span><span><strong>Total Development:</strong> A significant project with a total sales value of BDT 130 billion.</span></li>
+                            <li class="flex items-start"><span class="text-teal-400 font-bold mr-3">✔</span><span><strong>Residential Sanctuaries:</strong> 30,000 homes in studio, 1BHK, 2BHK, and luxury configurations.</span></li>
+                            <li class="flex items-start"><span class="text-teal-400 font-bold mr-3">✔</span><span><strong>Vibrant Commercial Hubs:</strong> 2.9 million sq ft of commercial space for a dynamic mixed-use environment.</span></li>
+                            <li class="flex items-start"><span class="text-teal-400 font-bold mr-3">✔</span><span><strong>Green Infrastructure:</strong> 3.2 million sq ft of EDGE-certified green infrastructure.</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Location -->
+                <div class="mb-20">
+                    <h3 class="text-3xl font-bold text-white mb-8 text-center">Strategically Located for Your Convenience</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <img src="https://placehold.co/600x400/111827/4b5563?text=Map+Visual" alt="Map showing project location" class="rounded-lg shadow-md w-full">
+                        </div>
+                        <ul class="space-y-4 text-gray-300 text-lg">
+                            <li class="flex items-center"><svg class="h-6 w-6 text-teal-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> <strong>Proximity to Business Hubs:</strong> Just a 26-minute, 7.5 km drive from Gulshan 2.</li>
+                            <li class="flex items-center"><svg class="h-6 w-6 text-teal-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> <strong>Airport Accessibility:</strong> Approximately 8.2 km from Hazrat Shahjalal International Airport.</li>
+                            <li class="flex items-center"><svg class="h-6 w-6 text-teal-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> <strong>Major Expressway Access:</strong> Roughly 8.9 km to the 300 Purbachal Expressway.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Site Plan -->
+                <div class="mb-20">
+                    <h3 class="text-3xl font-bold text-white mb-8 text-center">Masterfully Planned for a Modern Lifestyle</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                         <p class="text-gray-300 leading-relaxed text-lg">The site plan for "Gulshan Smart City" reveals a thoughtfully designed community with a clear layout for residential and commercial zones, ample green spaces, and a well-connected road network. The design prioritizes a harmonious balance between the built environment and nature, with considerations for sun rotation and wind direction to enhance the living experience.</p>
+                        <div>
+                            <img src="https://placehold.co/600x400/111827/4b5563?text=Proposed+Site+Plan" alt="Proposed Site Plan for Gulshan Smart City" class="rounded-lg shadow-md w-full">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sustainability & ESG -->
+                <div>
+                    <h3 class="text-3xl font-bold text-white mb-2 text-center">A Commitment to a Greener Future</h3>
+                    <p class="text-center text-gray-400 mb-12">This project is rooted in the principles of Environmental, Social, and Governance (ESG) excellence.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-teal-500">
+                            <h4 class="text-2xl font-bold mb-3 text-teal-400">Environmental</h4>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>EDGE Certified units for reduced energy/water use.</li>
+                                <li>Est. 1.5-2 tons of CO₂ reduction per unit annually.</li>
+                                <li>Over BDT 17.42 billion for green features (solar, greywater, EV).</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-sky-500">
+                            <h4 class="text-2xl font-bold mb-3 text-sky-400">Social</h4>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>Lease-to-own model for working-class families.</li>
+                                <li>Creates over 25,000 jobs, fostering economic growth.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-gray-800 p-6 rounded-lg border-l-4 border-indigo-500">
+                            <h4 class="text-2xl font-bold mb-3 text-indigo-400">Governance</h4>
+                            <ul class="space-y-3 text-gray-400">
+                                <li>Transparent, milestone-based financial structure.</li>
+                                <li>Aligns with green investment policies and UN SDGs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- The Ownership Model Section -->
+        <section id="ownership" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-white">The Ownership Model</h2>
+                    <p class="text-teal-400 font-semibold mt-2">A revolutionary approach to homeownership in Bangladesh.</p>
+                </div>
+
+                <!-- Lease-to-Own -->
+                <div class="mb-20">
+                    <h3 class="text-3xl font-bold text-white mb-8 text-center">Your Path to Homeownership, Simplified.</h3>
+                    <div class="max-w-4xl mx-auto bg-gray-900 p-8 rounded-xl shadow-lg">
+                        <p class="text-lg text-gray-300 mb-6">We are proud to introduce a first-of-its-kind lease-to-own model in Bangladesh, designed to make homeownership a reality for the emerging middle class.</p>
+                        <ul class="space-y-4 text-gray-400">
+                            <li class="flex items-start"><span class="text-teal-400 font-bold mr-3">✔</span><span><strong>Zero Down Payment:</strong> Secure your home without the burden of a large upfront payment.</span></li>
+                            <li class="flex items-start"><span class="text-teal-400 font-bold mr-3">✔</span><span><strong>From Renter to Owner:</strong> Your monthly payments act as both occupancy and equity contributions, turning long-term tenants into homeowners.</span></li>
+                            <li class="flex items-start"><span class="text-teal-400 font-bold mr-3">✔</span><span><strong>Financial Inclusion:</strong> This model reduces dependency on developer debt and aligns with national affordability goals.</span></li>
+                            <li class="flex items-start"><span class="text-teal-400 font-bold mr-3">✔</span><span><strong>Secure and Bankable:</strong> The entire structure is fully mortgage-backed, ensuring security for our financial partners.</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- How It Works -->
+                <div class="mb-20">
+                    <h3 class="text-3xl font-bold text-white mb-8 text-center">A Self-Financed, Risk-Mitigated Development Cycle</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <img src="https://placehold.co/600x450/1f2937/4b5563?text=Development+Cycle" alt="Development Cycle Graphic" class="rounded-lg shadow-md w-full">
+                        </div>
+                        <div>
+                            <p class="text-gray-300 leading-relaxed mb-6">Our unique development model is designed to be debt-free and self-sustaining.</p>
+                            <ol class="relative border-l border-gray-700">
+                                <li class="mb-10 ml-6">            
+                                    <span class="absolute flex items-center justify-center w-6 h-6 bg-teal-900 rounded-full -left-3 ring-8 ring-gray-800 text-teal-300">1</span>
+                                    <h4 class="font-semibold text-lg text-white">Buyer Commits</h4>
+                                    <p class="text-base font-normal text-gray-400">The cycle begins when a buyer signs an agreement and pays the first 6 months of EMIs upfront.</p>
+                                </li>
+                                <li class="mb-10 ml-6">
+                                    <span class="absolute flex items-center justify-center w-6 h-6 bg-teal-900 rounded-full -left-3 ring-8 ring-gray-800 text-teal-300">2</span>
+                                    <h4 class="font-semibold text-lg text-white">Construction Starts</h4>
+                                    <p class="text-base font-normal text-gray-400">This initial capital is used to begin construction on a small, 2.05% phase of the total project.</p>
+                                </li>
+                                <li class="mb-10 ml-6">
+                                    <span class="absolute flex items-center justify-center w-6 h-6 bg-teal-900 rounded-full -left-3 ring-8 ring-gray-800 text-teal-300">3</span>
+                                    <h4 class="font-semibold text-lg text-white">70-80% Completion</h4>
+                                    <p class="text-base font-normal text-gray-400">At 70% completion, cost is recovered. At 80%, IFIC Bank disburses the loan.</p>
+                                </li>
+                                <li class="ml-6">
+                                    <span class="absolute flex items-center justify-center w-6 h-6 bg-teal-900 rounded-full -left-3 ring-8 ring-gray-800 text-teal-300">4</span>
+                                    <h4 class="font-semibold text-lg text-white">Unit Delivered & Cycle Repeats</h4>
+                                    <p class="text-base font-normal text-gray-400">The land payment is made, the buyer receives their unit, and surplus funds begin the next cycle.</p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buyer Eligibility -->
+                <div>
+                    <h3 class="text-3xl font-bold text-white mb-8 text-center">A Home for Every Aspiration</h3>
+                    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+                            <h4 class="font-bold text-xl mb-2 text-teal-400">Target Population</h4>
+                            <p class="text-gray-400">Serving approximately 150,000 residents across 30,000 residential units.</p>
+                        </div>
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+                            <h4 class="font-bold text-xl mb-2 text-teal-400">Target Group</h4>
+                            <p class="text-gray-400">Catering to underserved urban families who have been unable to access traditional mortgages.</p>
+                        </div>
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg md:col-span-2">
+                             <h4 class="font-bold text-xl mb-2 text-teal-400">Affordability & Financing</h4>
+                             <p class="text-gray-400">With fixed monthly EMIs from Tk 12,000-20,000, our homes are tailored for households with incomes between Tk 25,000-60,000, made possible through 100% end-user financing from IFIC Bank.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Smart Space Strategy Section -->
+        <section id="smart-space" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-white">Smart Space Strategy</h2>
+                    <p class="text-teal-400 font-semibold mt-2">Designed for Life & Returns.</p>
+                </div>
+                <p class="max-w-4xl mx-auto text-center text-lg text-gray-300 mb-12">Our 21.6 million sq ft development is a thoughtfully planned blend of residential and commercial spaces—built to create a vibrant, self-sustaining urban community.</p>
+
+                <div class="grid grid-cols-1 lg:grid-cols-5 gap-12">
+                    <!-- Residential Section -->
+                    <div class="lg:col-span-3 bg-gray-800 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-3xl font-bold mb-2 text-white">🏡 Residential <span class="text-xl font-normal text-gray-400">(88% | 19.0M sq ft)</span></h3>
+                        <p class="text-gray-300 mb-6">30,000 units across 5 types—ranging from affordable 2 & 3 BHKs to premium studios and luxury units.</p>
+                        
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left border-collapse">
+                                <thead>
+                                    <tr class="bg-gray-700">
+                                        <th class="p-3 font-bold uppercase text-gray-300 border border-gray-600">Unit Type</th>
+                                        <th class="p-3 font-bold uppercase text-gray-300 border border-gray-600">Size (sq ft)</th>
+                                        <th class="p-3 font-bold uppercase text-gray-300 border border-gray-600">Price/Unit (Tk)</th>
+                                        <th class="p-3 font-bold uppercase text-gray-300 border border-gray-600">Units</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="text-gray-400">
+                                    <tr class="hover:bg-gray-700">
+                                        <td class="p-3 border border-gray-700">2 BHK</td>
+                                        <td class="p-3 border border-gray-700">1,050</td>
+                                        <td class="p-3 border border-gray-700">3.68M</td>
+                                        <td class="p-3 border border-gray-700">8,000</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-700">
+                                        <td class="p-3 border border-gray-700">3 BHK</td>
+                                        <td class="p-3 border border-gray-700">1,450</td>
+                                        <td class="p-3 border border-gray-700">5.08M</td>
+                                        <td class="p-3 border border-gray-700">—</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-700">
+                                        <td class="p-3 border border-gray-700">Studio</td>
+                                        <td class="p-3 border border-gray-700">430</td>
+                                        <td class="p-3 border border-gray-700">1.81M</td>
+                                        <td class="p-3 border border-gray-700">9,500</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-700">
+                                        <td class="p-3 border border-gray-700">1 BHK</td>
+                                        <td class="p-3 border border-gray-700">1,000</td>
+                                        <td class="p-3 border border-gray-700">4.20M</td>
+                                        <td class="p-3 border border-gray-700">11,000</td>
+                                    </tr>
+                                    <tr class="hover:bg-gray-700">
+                                        <td class="p-3 border border-gray-700">Luxury</td>
+                                        <td class="p-3 border border-gray-700">3,500</td>
+                                        <td class="p-3 border border-gray-700">24.5M</td>
+                                        <td class="p-3 border border-gray-700">1,500</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="mt-6 text-right font-bold text-lg text-teal-400">Projected Residential Revenue: ৳ 95.43 Billion</p>
+                    </div>
+                    <!-- Commercial Section -->
+                    <div class="lg:col-span-2 bg-gray-800 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-3xl font-bold mb-2 text-white">🏢 Commercial <span class="text-xl font-normal text-gray-400">(12% | 2.6M sq ft)</span></h3>
+                        <p class="text-gray-300 mb-6">High-value retail and office space priced at Tk 20,000/sq ft.</p>
+                        <div class="bg-gray-700 p-6 rounded-lg">
+                            <h4 class="font-bold text-xl mb-4 text-white">Cost Breakdown per sq ft:</h4>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex justify-between"><span>▪ Construction</span> <strong class="text-white">Tk 3,300</strong></li>
+                                <li class="flex justify-between"><span>▪ Land</span> <strong class="text-white">Tk 10,000</strong></li>
+                                <li class="flex justify-between"><span>▪ ESG Infra</span> <strong class="text-white">Tk 6,700</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Invest Section -->
+        <section id="invest" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-white">Why Invest With Us</h2>
+                    <p class="text-teal-400 font-semibold mt-2">A unique opportunity for homebuyers and financial partners alike.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <!-- For Homebuyers -->
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-white mb-2">For Homebuyers</h3>
+                        <p class="text-teal-400 font-semibold mb-6">More Than a Home, It's a Smart Investment in Your Future.</p>
+                        <ul class="space-y-4 text-gray-300">
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>Accessible Ownership:</strong> No large down payment required, only 6 months of EMIs upfront.</span></li>
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>Predictable Payments:</strong> Fixed 1% monthly interest rate (flat) over 18 years.</span></li>
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>Modern Living:</strong> A range of units in an amenity-rich, well-planned community.</span></li>
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>Lower Living Costs:</strong> Green infrastructure leads to lower utility bills.</span></li>
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>Hassle-Free Process:</strong> Simple and transparent process with trusted partners.</span></li>
+                        </ul>
+                    </div>
+                    <!-- For Partners -->
+                    <div class="bg-gray-900 p-8 rounded-xl shadow-lg">
+                        <h3 class="text-2xl font-bold text-white mb-2">For Partners</h3>
+                        <p class="text-teal-400 font-semibold mb-6">A High-Return, Low-Risk Proposition.</p>
+                        <ul class="space-y-4 text-gray-300">
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>Zero Project Risk:</strong> Lending is directed only to secured, verified buyers, not the developer.</span></li>
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>High-Yield Portfolio:</strong> A long-term portfolio of structured retail mortgages.</span></li>
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>Advance Cash Flow:</strong> 6 months' EMI collected upfront provides advance cash flow.</span></li>
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>ESG-Positive Lending:</strong> Strengthen your brand with green and inclusive housing finance.</span></li>
+                            <li class="flex"><svg class="h-6 w-6 text-green-400 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg><span><strong>Strong Returns:</strong> Estimated 50% annualized ROE on a 10% capital allocation for IFIC Bank.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners Section -->
+        <section id="partners" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-bold text-white">A Partnership for Progress</h2>
+                    <p class="text-teal-400 font-semibold mt-2">United by a common goal to redefine urban living in Bangladesh.</p>
+                </div>
+                
+                <!-- Local Partners -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-bold mb-3 text-teal-400">FF Holding</h3>
+                        <p class="font-semibold mb-2 text-white">Developer & Project Leader</p>
+                        <p class="text-gray-400">Leading development with a milestone-based strategy to ensure timely delivery, with earnings tied to successful phase completion.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-bold mb-3 text-teal-400">Urbana Real Estate</h3>
+                        <p class="font-semibold mb-2 text-white">Land Provider</p>
+                        <p class="text-gray-400">Providing the land for this transformative project with a risk-minimizing payment structure linked to unit sales.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-bold mb-3 text-teal-400">IFIC Bank</h3>
+                        <p class="font-semibold mb-2 text-white">End-User Financier</p>
+                        <p class="text-gray-400">Offering 100% buyer financing through a secure lease-to-own model, making homeownership accessible to all.</p>
+                    </div>
+                </div>
+
+                <!-- Global Expertise -->
+                <div class="mt-20">
+                    <div class="text-center mb-12">
+                         <h3 class="text-3xl font-bold text-white">Bringing World-Class Standards to Bangladesh</h3>
+                         <p class="text-gray-400 mt-2 max-w-3xl mx-auto">FF Holding has established strategic partnerships with global industry leaders to bring international expertise in infrastructure, housing technology, and urban planning to Bangladesh.</p>
+                    </div>
+                    <div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-8">
+                        <div class="text-center">
+                            <img src="https://placehold.co/150x60/374151/9ca3af?text=Orascom" alt="Orascom Development Logo" class="h-12 mx-auto mb-2 grayscale hover:grayscale-0 transition duration-300">
+                            <p class="font-semibold text-gray-300">Orascom Development <span class="text-gray-500">(Egypt)</span></p>
+                        </div>
+                        <div class="text-center">
+                            <img src="https://placehold.co/150x60/374151/9ca3af?text=Marubeni" alt="Marubeni Corporation Logo" class="h-12 mx-auto mb-2 grayscale hover:grayscale-0 transition duration-300">
+                            <p class="font-semibold text-gray-300">Marubeni Corporation <span class="text-gray-500">(Japan)</span></p>
+                        </div>
+                        <div class="text-center">
+                            <img src="https://placehold.co/150x60/374151/9ca3af?text=Samcrete" alt="Samcrete Engineers & Contractors Logo" class="h-12 mx-auto mb-2 grayscale hover:grayscale-0 transition duration-300">
+                            <p class="font-semibold text-gray-300">Samcrete Engineers <span class="text-gray-500">(Egypt)</span></p>
+                        </div>
+                         <div class="text-center">
+                            <img src="https://placehold.co/150x60/374151/9ca3af?text=Karmod" alt="Karmod International Logo" class="h-12 mx-auto mb-2 grayscale hover:grayscale-0 transition duration-300">
+                            <p class="font-semibold text-gray-300">Karmod International <span class="text-gray-500">(Turkey)</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-800 text-white border-t border-gray-700">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-white">FFH Real Estate</h3>
+                    <p class="text-gray-400">Pioneering sustainable and affordable urban ecosystems for a brighter future in Bangladesh.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Quick Links</h3>
+                    <ul>
+                        <li class="mb-2"><a href="#home" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li class="mb-2"><a href="#project" class="text-gray-400 hover:text-white">The Project</a></li>
+                        <li class="mb-2"><a href="#ownership" class="text-gray-400 hover:text-white">Ownership Model</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4 invisible md:visible">&nbsp;</h3>
+                     <ul>
+                        <li class="mb-2"><a href="#smart-space" class="text-gray-400 hover:text-white">Space Strategy</a></li>
+                        <li class="mb-2"><a href="#invest" class="text-gray-400 hover:text-white">Why Invest</a></li>
+                        <li class="mb-2"><a href="#partners" class="text-gray-400 hover:text-white">Our Partners</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Connect With Us</h3>
+                    <p class="text-gray-400 mb-4">Stay updated with our latest developments.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.28C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.48 2.96,10.28 2.38,10V10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" /></svg></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.75 9.5,20.05 9.5,19.2C6.73,19.79 6.14,17.88 6.14,17.88C5.69,16.73 5.03,16.43 5.03,16.43C4.12,15.82 5.1,15.84 5.1,15.84C6.1,15.92 6.63,16.83 6.63,16.83C7.5,18.31 8.92,17.87 9.5,17.6C9.58,16.97 9.84,16.55 10.13,16.28C7.75,16 5.25,15.12 5.25,11.24C5.25,10.23 5.61,9.42 6.15,8.78C6.05,8.53 5.8,7.79 6.25,6.75C6.25,6.75 7.12,6.45 9.5,8C10.31,7.78 11.16,7.67 12,7.67C12.84,7.67 13.69,7.78 14.5,8C16.88,6.45 17.75,6.75 17.75,6.75C18.2,7.79 17.95,8.53 17.85,8.78C18.39,9.42 18.75,10.23 18.75,11.24C18.75,15.13 16.25,16 13.87,16.28C14.23,16.58 14.5,17.14 14.5,18.05C14.5,19.31 14.5,20.31 14.5,20.69C14.5,20.96 14.66,21.28 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" /></svg></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19,3A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3H19M18.5,18.5V13.2A3.26,3.26 0 0,0 15.24,9.94C14.39,9.94 13.4,10.46 12.92,11.24V10.13H10.13V18.5H12.92V13.57C12.92,12.8 13.54,12.17 14.31,12.17C15.08,12.17 15.71,12.8 15.71,13.57V18.5H18.5M6.88,8.56A1.68,1.68 0 0,0 8.56,6.88C8.56,6 7.78,5.22 6.88,5.22C6,5.22 5.22,6 5.22,6.88C5.22,7.78 6,8.56 6.88,8.56M8.27,18.5V10.13H5.5V18.5H8.27Z" /></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-gray-700 pt-6 text-center text-gray-500">
+                <p>&copy; 2024 FFH Real Estate. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
